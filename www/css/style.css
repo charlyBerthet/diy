@@ -1,0 +1,28 @@
+/* Empty. Add your own CSS if you like */
+
+.tab-post .description{
+  display:block;
+  width:100%;
+  resize: none;
+  border:1px solid grey;
+  padding: 4px;
+}
+.tab-post .post{
+  margin-left: 0px; margin-right: 0px;
+}
+
+
+
+
+.tab-discover .description{
+  margin-right: 15px;
+  text-align: justify;
+  max-height: 120px;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.5em;
+}

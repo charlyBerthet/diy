@@ -1,0 +1,17 @@
+<ion-view view-title="Do it yourself" class="tab-post">
+  <ion-content class="padding">
+
+
+    <image-picker image-selected="$ctrl.onImageSelected(imageFile)"></image-picker>
+
+    
+    <md-input-container class="md-block">
+      <label>Description</label>
+      <textarea ng-model="user.biography" md-maxlength="150" rows="5" md-select-on-focus></textarea>
+    </md-input-container>
+
+
+    <md-button class="post button-full md-raised md-primary">POST</md-button>
+
+  </ion-content>
+</ion-view>
